@@ -29,6 +29,7 @@ $showAd
 ```
 is true.
 So your finished code should look like this
+P.S make sure you have connected your page.php to the database
 ```HTML
 <script src="AdsenseBlocker/eventHandler.js"></script>
 <?php include_once("/AdsenseBlocker/adValidator.php"); ?>
