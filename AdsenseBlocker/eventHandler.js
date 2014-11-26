@@ -18,6 +18,7 @@ $(document).ready(function()
 
 $(window).blur(function(e){
 	if(isOverGoogleAd){
+		$('.myAds').hide();
 		$.ajax({
 			type: "post",
 			url: "AdsenseBlocker/recorder.php",
