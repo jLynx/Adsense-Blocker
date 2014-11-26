@@ -16,7 +16,19 @@ CREATE TABLE IF NOT EXISTS `ads` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
 ```
 
+In your page.php add 
+```HTML
+<script src="AdsenseBlocker/adBlock.js"></script>
+<?php include_once("/AdsenseBlocker/adInfo.php"); ?>
+```
+near the top
 
+and wrap your ad with a if statment checking if 
+```php
+$showAd
+```
+is true.
+So your finished code should look like this
 ```HTML
 <script src="AdsenseBlocker/adBlock.js"></script>
 <?php include_once("/AdsenseBlocker/adInfo.php"); ?>
