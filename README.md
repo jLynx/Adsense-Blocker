@@ -3,7 +3,7 @@ Adsense-Blocker
 
 Stops spam clicks on your adsense ads
 
-How to use
+**How to use**
 
 Create a MySQL table called "ads" 
 
