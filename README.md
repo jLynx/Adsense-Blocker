@@ -23,11 +23,11 @@ In your page.php add
 ```
 near the top
 
-and wrap your ad with a if statment checking if 
+And wrap your ad with a if statment checking if 
 ```php
 $showAd
 ```
-is true.
+Is true.
 So your finished code should look like this<br />
 P.S make sure you have connected your page.php to the database
 ```HTML
