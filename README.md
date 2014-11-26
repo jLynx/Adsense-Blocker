@@ -28,7 +28,7 @@ and wrap your ad with a if statment checking if
 $showAd
 ```
 is true.
-So your finished code should look like this
+So your finished code should look like this<br />
 P.S make sure you have connected your page.php to the database
 ```HTML
 <script src="AdsenseBlocker/eventHandler.js"></script>
