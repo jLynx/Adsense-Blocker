@@ -4,7 +4,7 @@ Adsense-Blocker
 Stops spam clicks on your adsense ads
 
 How to use
-
+```HTML
 <script src="adblocker/adBlock.js"></script>
 <?php include_once("/adblocker/adInfo.php"); ?>
 
@@ -24,3 +24,4 @@ data-ad-slot="6735372136"></ins>
 <?php
 }
 ?>
+```
