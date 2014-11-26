@@ -30,6 +30,10 @@ And wrap your ad with a if statment checking if
 $showAd
 ```
 Is true.
+you also want to wrap your ad with a div tag with the class myAds
+```HTML
+<div class="myAds">
+```
 So your finished code should look like this<br />
 P.S make sure you have connected your page.php to the database
 ```HTML
@@ -40,6 +44,7 @@ P.S make sure you have connected your page.php to the database
 if($showAd)
 {
 ?>
+	<div class="myAds">
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<ins class="adsbygoogle"
 	style="display:inline-block;width:xxxpx;height:xxxpx"
@@ -48,6 +53,7 @@ if($showAd)
 	<script>
 	(adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
+	<div>
 <?php
 }
 ?>
