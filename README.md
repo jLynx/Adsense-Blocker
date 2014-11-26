@@ -49,3 +49,4 @@ if($showAd)
 }
 ?>
 ```
+In  blocker.php make sure you have configued your connection to your MySQL Database
