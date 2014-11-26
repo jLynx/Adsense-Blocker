@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS `ads` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
 ```
-
+In  blocker.php make sure you have configued your connection to your MySQL Database
 In your page.php add 
 ```HTML
 <script src="AdsenseBlocker/adBlock.js"></script>
@@ -49,4 +49,3 @@ if($showAd)
 }
 ?>
 ```
-In  blocker.php make sure you have configued your connection to your MySQL Database
