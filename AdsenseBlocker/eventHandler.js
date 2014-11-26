@@ -4,12 +4,12 @@ var ad = /adsbygoogle/;
 
 $(document).ready(function()
 {	
-	$('ins').live('mouseover', function () {
+	$('ins').on('mouseover', function () {
 		if(ad.test($(this).attr('class'))){
 			isOverGoogleAd = true;
 		}
 	});
-	$('ins').live('mouseout', function () {
+	$('ins').on('mouseout', function () {
 		if(ad.test($(this).attr('class'))){
 			isOverGoogleAd = false;
 		}
