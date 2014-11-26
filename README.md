@@ -45,14 +45,14 @@ if($showAd)
 {
 ?>
 	<div class="myAds">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<ins class="adsbygoogle"
-	style="display:inline-block;width:xxxpx;height:xxxpx"
-	data-ad-client="ca-pub-xxxxxxxx"
-	data-ad-slot="xxxxxxxxx"></ins>
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle"
+		style="display:inline-block;width:xxxpx;height:xxxpx"
+		data-ad-client="ca-pub-xxxxxxxx"
+		data-ad-slot="xxxxxxxxx"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
 	<div>
 <?php
 }
