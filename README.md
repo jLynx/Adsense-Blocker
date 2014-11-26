@@ -18,8 +18,8 @@ CREATE TABLE IF NOT EXISTS `ads` (
 
 
 ```HTML
-<script src="adblocker/adBlock.js"></script>
-<?php include_once("/adblocker/adInfo.php"); ?>
+<script src="AdsenseBlocker/adBlock.js"></script>
+<?php include_once("/AdsenseBlocker/adInfo.php"); ?>
 
 <?php
 if($showAd)
