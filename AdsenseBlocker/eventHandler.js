@@ -20,7 +20,7 @@ $(window).blur(function(e){
 	if(isOverGoogleAd){
 		$.ajax({
 			type: "post",
-			url: "AdsenseBlocker/blocker.php",
+			url: "AdsenseBlocker/recorder.php",
 			data: {
 				adUrl: window.location.href
 				}
