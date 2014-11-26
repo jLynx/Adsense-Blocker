@@ -2,6 +2,8 @@ Adsense-Blocker
 ===============
 
 Stops spam clicks on your adsense ads
+<br />
+Once an ad is clicked, it will take 5 days before the ad is showen making it so people cant spam click ads on your website getting your account banned
 
 **How to use**
 
