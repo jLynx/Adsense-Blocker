@@ -4,6 +4,10 @@ Adsense-Blocker
 Stops spam clicks on your adsense ads
 
 How to use
+
+<script src="adblocker/adBlock.js"></script>
+<?php include_once("/adblocker/adInfo.php"); ?>
+
 <?php
 if($showAd)
 {
