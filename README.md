@@ -18,8 +18,8 @@ CREATE TABLE IF NOT EXISTS `ads` (
 In  blocker.php make sure you have configued your connection to your MySQL Database
 In your page.php add 
 ```HTML
-<script src="AdsenseBlocker/adBlock.js"></script>
-<?php include_once("/AdsenseBlocker/adInfo.php"); ?>
+<script src="AdsenseBlocker/eventHandler.js"></script>
+<?php include_once("/AdsenseBlocker/adValidator.php"); ?>
 ```
 near the top
 
@@ -30,8 +30,8 @@ $showAd
 is true.
 So your finished code should look like this
 ```HTML
-<script src="AdsenseBlocker/adBlock.js"></script>
-<?php include_once("/AdsenseBlocker/adInfo.php"); ?>
+<script src="AdsenseBlocker/eventHandler.js"></script>
+<?php include_once("/AdsenseBlocker/adValidator.php"); ?>
 
 <?php
 if($showAd)
