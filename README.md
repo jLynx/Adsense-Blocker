@@ -6,10 +6,6 @@ Stops spam clicks on your adsense ads
 How to use
 
 Create a MySQL table called "ads" 
-Have:
-"id" int AUTO_INCREMENT
-"ip" text
-"date" timestamp
 
 ```SQL
 CREATE TABLE IF NOT EXISTS `ads` (
